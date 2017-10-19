@@ -65,12 +65,12 @@ if (isset($_POST['save'])) {
                     The label you want to be displayed near the image selection field
                 </td>
             </tr>
-            <tr>
+            <!--<tr>
                 <th>Thumbnail width</th>
                 <td>
                     <input type="text" size="5" name="options[width]" value="<?php echo htmlspecialchars($options['width']); ?>"/>
                 </td>
-            </tr>
+            </tr> -->
 
         </table>
 

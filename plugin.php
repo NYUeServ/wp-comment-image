@@ -94,7 +94,8 @@ function commentimage_comment_post($id)
             }
             $thumb = ABSPATH . 'wp-content/comment-image/' . $name . '-tn.jpg';
             move_uploaded_file($_FILES[$field]['tmp_name'], $dest);
-            $res = commentimage_thumb($dest, $thumb, (int)$options['width'], (int)$options['width'], $_FILES[$field]['type']);
+            // This line has been modified to set default width as the 200. By setting modifying this line, solves the problem. 
+            $res = commentimage_thumb($dest, $thumb, 200/*(int)$options['width']*/, 200/*(int)$options['width']*/, $_FILES[$field]['type']);
             if (!$res) @unlink($dest);
         }
     }
