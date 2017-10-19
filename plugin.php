@@ -3,8 +3,8 @@
 Plugin Name: Comment Image
 Plugin URI: http://www.satollo.net/plugins/comment-image
 Description: Attach images to comments and build a new commenting experience.
-Version: 1.2.2
-Author: Stefano Lissa
+Version: 1.2.2-n
+Author: Stefano Lissa, NYU
 Author URI: http://www.satollo.net
 Disclaimer: Use at your own risk. No warranty expressed or implied is provided.
 */
